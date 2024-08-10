@@ -1,0 +1,102 @@
+{
+    "jobList": [
+        {
+            "id": "1",
+            "jobTitle": "React Native Developer I Permanent WFH/ Remote",
+            "company": "WovV Technologies (Division consulting Pvt Ltd)",
+            "jobtype": "full time",
+            "location": "Gurugram",
+            "experince": "3-8 Years",
+            "salary": "3,00,000-7,00,000 INR",
+            "skills": [
+                "React Native",
+                "Redux",
+                "Mobile Development",
+                "Mobile Application"
+            ],
+            "days": "3 days Ago",
+            "function": "Technology",
+            "Role": "React Designer",
+            "jobDestription": [
+                "Engineer in Computer Science or a related engineering field",
+                "5 + Years in IT, 3+ years of experience working as a Business Analyst Great communication skills.",
+                "Analysis & documentation of functional and non-functional business.",
+                "Practice of agile methodologies, tools & processes and capturing requirements for Epics and Stories."
+            ]
+        },
+        {
+            "id": "2",
+            "jobTitle": "Asso SE MOBILE-REACT-NATIVE REF17156E All Client",
+            "company": "Sampoorna Consultants Private Limited",
+            "jobtype": "part time",
+            "location": "Bengaluru",
+            "experince": "8 Years",
+            "salary": "1,00,000-8,00,000 INR",
+            "skills": [
+                "React Native",
+                "Redux",
+                "Mobile Development",
+                "Mobile Application"
+            ],
+            "days": "2 days Ago",
+            "function": "IT",
+            "Role": "Java Developer",
+            "jobDestription": [
+                "SAP B1 Consultant",
+                "Good Domain knowledge in Finance and Supply Chain.",
+                "Must have Procure to Pay / Order to Cash",
+                "Must have knowledge on Banking module",
+                "Strong knowledge of Production / MRP."
+            ]
+        },
+        {
+            "id": "3",
+            "jobTitle": "React Developer",
+            "company": "Sampoorna Consultants Private Limited",
+            "jobtype": "full time",
+            "location": "Delhi",
+            "experince": "1-8 Years",
+            "salary": "5,00,000-9,00,000 INR",
+            "skills": [
+                "React Native",
+                "Redux",
+                "Mobile Development",
+                "Mobile Application"
+            ],
+            "days": "1 days Ago",
+            "function": "IT/Software Development - Application Pro",
+            "Role": "Python Developer",
+            "jobDestription": [
+                "Experience 6 to 12 Years",
+                "Once your profile got screen shortlist, you will receive call from panel team to get your available time and schedule video call interview Job Description:",
+                "Strong knowledge and experience in Java",
+                "Strong automation skills of Selenium and BDD Cucumber"
+            ]
+        },
+        {
+            "id": "4",
+            "jobTitle": "Senior Engineer - React Native Mobile",
+            "company": "Sampoorna Consultants Private Limited",
+            "jobtype": "part time",
+            "location": "Bengaluru",
+            "experince": "3-8 Years",
+            "salary": "₹ 5- 10 Lakhs",
+            "skills": [
+                "React Native",
+                "Redux",
+                "Mobile Development",
+                "Mobile Application"
+            ],
+            "days": "9 days Ago",
+            "function": "Finance",
+            "Role": "UI/UX Designer",
+            "jobDestription": [
+                "SAP B1 Consultant",
+                "Good Domain knowledge in Finance and Supply Chain.",
+                "Must have Procure to Pay / Order to Cash",
+                "Must have knowledge on Banking module",
+                "Strong knowledge of Production / MRP."
+            ]
+        }
+    ]
+}

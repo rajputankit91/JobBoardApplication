@@ -1,0 +1,84 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.middle-header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 15px;
+    min-width: 300px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.left-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+img{
+    height: 24px;
+}
+
+.jobsBtn,.servicesBtn{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: black;
+}
+
+.right-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+input{
+    border: none;
+    width: 100%;
+}
+
+input:focus{
+    outline: none;
+}
+
+.right-header a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: blue;
+}
+
+.right-header a button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+    border: none;
+
+}
+
+.right-header .registerBtnWrapper{
+    background-color: rgb(252 89 18);
+    border: none;
+}
+
+.registerBtnWrapper button{
+    color: white;
+}
