@@ -8,9 +8,15 @@ const FilterPanels = ({ filters, onChange }) => {
         console.log(newLocation);
         onChange('location', newLocation);
     };
-
+    
     const handleFunctionChange = (newFunction) => {
+        console.log(newFunction);
         onChange ('function', newFunction);
+    };
+
+    const handleExperianceChange = (newExperiance) => {
+        console.log(newExperiance);
+        onChange ('function', newExperiance);
     };
 
     return (
@@ -25,7 +31,7 @@ const FilterPanels = ({ filters, onChange }) => {
             <CustomMultiSelect
                 options={["0 - 1 Years", "1 - 2 Years", "2 - 5 years"]}
                 selectedOptions={filters.function}
-                onChange={handleFunctionChange}
+                onChange={handleExperianceChange}
                 label="Experince"
             />
 

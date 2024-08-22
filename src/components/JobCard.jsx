@@ -5,8 +5,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { AiFillCalendar } from "react-icons/ai";
 import { GiSkills } from "react-icons/gi";
 
-const JobCard = ({ job ,onIndexChange}) => {
-
+const JobCard = ({ job, onIndexChange }) => {
 
     const [active, setActive] = useState(false);
 
@@ -14,7 +13,7 @@ const JobCard = ({ job ,onIndexChange}) => {
         e.preventDefault()
         onIndexChange(e.target.id);
         console.log(e.target.id)
-        
+
     }
 
     return (
@@ -33,7 +32,7 @@ const JobCard = ({ job ,onIndexChange}) => {
                             {job.jobtype}
                         </div>
                     </div>
-                    
+
                     <div className="bodyRow">
                         <div className="icon">
                             <CiLocationOn />

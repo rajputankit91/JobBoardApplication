@@ -11,6 +11,20 @@ const CustomMultiSelect = ({ options, selectedOptions, onChange, label }) => {
     useEffect(() =>{
         setLocalSelectedOptions(selectedOptions);
     },[selectedOptions]);
+
+    useEffect(() => {
+      const handleClickOutside = (event) => {
+        if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+          setIsOpen(false);
+        }
+      };
+  
+      document.addEventListener('mousedown', handleClickOutside);
+      return () => {
+        document.removeEventListener('mousedown', handleClickOutside);
+      };
+    }, []);
+    
     const toggleDropdown = () => setIsOpen(!isOpen);
 
     const handleCheckboxChange = (option) => {

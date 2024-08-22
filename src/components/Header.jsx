@@ -29,18 +29,18 @@ const Header = ({ onFilterTextChange }) => {
             {/* right-header */}
             <div className="right-header">
                 <a href="" >
-                    
+
                     <button>
-                    <SiSimplelogin />
-                    Login
+                        <SiSimplelogin />
+                        Login
                     </button>
                 </a>
 
                 <a href="" className="registerBtnWrapper" >
-                    
+
                     <button>
-                    <LiaRegistered />
-                    Register
+                        <LiaRegistered />
+                        Register
                     </button>
                 </a>
 
