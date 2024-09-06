@@ -7,8 +7,6 @@ import { GiSkills } from "react-icons/gi";
 
 const JobCard = ({ job, onIndexChange }) => {
 
-    const [active, setActive] = useState(false);
-
     const handleClick = (e) => {
         e.preventDefault()
         onIndexChange(e.target.id);
@@ -18,7 +16,7 @@ const JobCard = ({ job, onIndexChange }) => {
 
     return (
         <>
-            <div onClick={handleClick} className={`${active ? "wrapper active" : "wrapper"}`} id={job.id}>
+            <div onClick={handleClick} className="wrapper" id={job.id}>
                 <div className="cartHeder">
                     <h4>{job.jobTitle}</h4>
                     <p>{job.company}</p>
